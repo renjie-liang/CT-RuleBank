@@ -1,0 +1,8 @@
+# The LLM editor of main_v5 (stage_b/editor.py): one call per draft with every rule that fired on it
+model: gpt-oss
+temperature: 0.0
+retry_temperature: 0.7
+retries: 2
+reasoning_effort: medium
+max_tokens: 16384
+workers: 32

@@ -1,0 +1,27 @@
+# final_ma1_learned with a precision floor of 50% for labelled additions, written into the prompt (RJ 2026-11-08; floor chosen on dev by baselines.regate, results/regate_floor_2026-11-08)
+name: final_ma1_p50
+table: results/table
+evidence: main
+learner:
+  prompt: explore
+  enum_names: true
+  anon: false
+  no_experience: false
+  rounds: 20
+  budget: 20
+  repeat_retries: 2
+gate:
+  margin: 0.0
+  margin_add: -1.0
+  min_agree_add: 0.60
+  max_agree_remove: 0.40
+  min_changed_per_3000: 20
+  min_precision_add: 0.5
+folds:
+  outer: 5
+  seed: 11
+llm:
+  model: gpt-oss
+  temperature: 0.0
+  reasoning_effort: medium
+  max_tokens: 32768

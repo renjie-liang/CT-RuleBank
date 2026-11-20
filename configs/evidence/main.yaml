@@ -1,0 +1,34 @@
+# The evidence of the final method: 18 classifier means + 13 image measurements (the ten, and the diameters add_value writes: arch_mm, descending_mm, pa_mm).
+evidence:
+  - "clf:Medical material"
+  - "clf:Arterial wall calcification"
+  - "clf:Cardiomegaly"
+  - "clf:Pericardial effusion"
+  - "clf:Coronary artery wall calcification"
+  - "clf:Hiatal hernia"
+  - "clf:Lymphadenopathy"
+  - "clf:Emphysema"
+  - "clf:Atelectasis"
+  - "clf:Lung nodule"
+  - "clf:Lung opacity"
+  - "clf:Pulmonary fibrotic sequela"
+  - "clf:Pleural effusion"
+  - "clf:Mosaic attenuation pattern"
+  - "clf:Peribronchial thickening"
+  - "clf:Consolidation"
+  - "clf:Bronchiectasis"
+  - "clf:Interlobular septal thickening"
+  - ctr
+  - calc_coronary
+  - calc_aortic
+  - pericardial_ml
+  - pleural_ml
+  - esophagus_area
+  - metal_mm3
+  - ascending_mm
+  - liver_hu_neg
+  - coronal_range
+  - arch_mm
+  - descending_mm
+  - pa_mm
+edits_off: []
